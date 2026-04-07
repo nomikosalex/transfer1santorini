@@ -9,18 +9,17 @@ const rateLimit = new Map<string, { count: number; resetAt: number }>()
 const RATE_LIMIT_WINDOW = 60 * 1000 // 1 minute
 const RATE_LIMIT_MAX = 5 // max 5 form submissions per minute per IP
 
-export function proxy(request: NextRequest) {
+export function middleware(request: NextRequest) {
   // Security headers
   const response = intlMiddleware(request)
 
   // Apply security headers to all responses
-  const headers = new Headers(response.headers)
-  headers.set('X-Content-Type-Options', 'nosniff')
-  headers.set('X-Frame-Options', 'DENY')
-  headers.set('X-XSS-Protection', '1; mode=block')
-  headers.set('Referrer-Policy', 'strict-origin-when-cross-origin')
-  headers.set('Permissions-Policy', 'camera=(), microphone=(), geolocation=()')
-  headers.set(
+  response.headers.set('X-Content-Type-Options', 'nosniff')
+  response.headers.set('X-Frame-Options', 'DENY')
+  response.headers.set('X-XSS-Protection', '1; mode=block')
+  response.headers.set('Referrer-Policy', 'strict-origin-when-cross-origin')
+  response.headers.set('Permissions-Policy', 'camera=(), microphone=(), geolocation=()')
+  response.headers.set(
     'Content-Security-Policy',
     [
       "default-src 'self'",
@@ -62,9 +61,7 @@ export function proxy(request: NextRequest) {
     }
   }
 
-  return NextResponse.next({
-    headers,
-  })
+  return response
 }
 
 export const config = {

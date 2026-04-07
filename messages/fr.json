@@ -18,7 +18,7 @@
     "title": "Mercedes-Benz C 180",
     "subtitle": "Un véhicule unique, méticuleusement entretenu, exclusivement pour vous.",
     "specs": {
-      "passengers": { "label": "Passagers", "value": "Jusqu'à 3" },
+      "passengers": { "label": "Passagers", "value": "Jusqu'à 4" },
       "luggage": { "label": "Bagages", "value": "2 Grandes Valises et 2 Petites Valises" },
       "ac": { "label": "Climatisation", "value": "Dual-Zone A/C" },
       "wifi": { "label": "Connectivité", "value": "Starlink Wi-Fi" },
@@ -55,7 +55,7 @@
   "contact": {
     "badge": "Réservation Sécurisée",
     "title": "Réserver votre Transfert",
-    "subtitle": "Toutes les demandes sont privées, chiffrées et reçoivent une réponse dans les 2 heures.",
+    "subtitle": "Toutes les demandes sont privées et reçoivent une réponse dans les 2 heures.",
     "form": {
       "name": "Nom Complet",
       "namePlaceholder": "Votre nom",

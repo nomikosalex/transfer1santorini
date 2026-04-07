@@ -102,7 +102,6 @@ ${message ? `Message:\n${message}` : ''}`
               className="flex flex-col gap-4"
             >
               {[
-                { icon: '🔐', text: 'End-to-end encrypted' },
                 { icon: '🚫', text: 'No public database storage' },
                 { icon: '⚡', text: 'Response within 2 hours' },
               ].map((item) => (
