@@ -14,14 +14,13 @@
   },
   "fleet": {
     "badge": "Das Fahrzeug",
-    "title": "Mercedes-Benz S-Klasse",
+    "title": "Mercedes-Benz C 180",
     "subtitle": "Ein einziges Fahrzeug, sorgfältig gepflegt, ausschließlich für Sie.",
     "specs": {
       "passengers": { "label": "Passagiere", "value": "Bis zu 3" },
-      "luggage": { "label": "Gepäck", "value": "4 Große Koffer" },
+      "luggage": { "label": "Gepäck", "value": "2 Große Koffer und 2 Kleine Koffer" },
       "ac": { "label": "Klima", "value": "Dual-Zone A/C" },
       "wifi": { "label": "Konnektivität", "value": "Starlink Wi-Fi" },
-      "water": { "label": "Ausstattung", "value": "Premium-Wasser" },
       "privacy": { "label": "Privatsphäre", "value": "Getönte Scheiben" }
     },
     "tag1": "Vor jedem Transfer von Hand gewaschen",
@@ -45,6 +44,11 @@
       "stops": "Private Route · Dorf Oia",
       "description": "Kommen Sie vor den Menschenmassen zur Burg von Oia. Genießen Sie den weltberühmten Sonnenuntergang in relativer Stille und kehren Sie unter dem Sternenhimmel der Ägäis zurück.",
       "cta": "Anfragen"
+    },
+    "custom": {
+      "title": "Individuelle Touren",
+      "description": "Interessiert an einem bestimmten Ziel? Wir bieten vollständig anpassbare Routen, die auf Ihre Bedürfnisse zugeschnitten sind.",
+      "cta": "Individuelle Route Anfragen"
     }
   },
   "contact": {

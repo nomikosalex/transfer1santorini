@@ -64,16 +64,10 @@ export function Navbar() {
             whileHover={{ opacity: 0.8 }}
           >
             <span
-              className="font-display text-marble"
-              style={{ fontSize: '22px', fontWeight: 300, letterSpacing: '0.1em' }}
+              className="font-display text-marble lowercase"
+              style={{ fontSize: '20px', fontWeight: 300, letterSpacing: '0.05em' }}
             >
-              PEP
-            </span>
-            <span
-              className="font-body text-gold"
-              style={{ fontSize: '9px', letterSpacing: '0.3em', textTransform: 'uppercase', marginTop: '-2px' }}
-            >
-              Santorini
+              transfer<span className="text-gold">1</span>santorini
             </span>
           </motion.a>
 

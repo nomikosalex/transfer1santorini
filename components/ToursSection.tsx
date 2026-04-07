@@ -77,6 +77,38 @@ export function ToursSection() {
             <TourCard key={tour.key} tour={tour} index={i} inView={inView} />
           ))}
         </div>
+
+        {/* Custom Tours */}
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.7, delay: 0.4 }}
+          className="mt-12 lg:mt-16 bg-[rgba(20,20,25,0.6)] border border-[rgba(255,255,255,0.05)] rounded-2xl p-8 lg:p-12 text-center relative overflow-hidden backdrop-blur-sm"
+        >
+          {/* Subtle glow */}
+          <div className="absolute inset-0 bg-gradient-to-t from-[rgba(201,168,76,0.03)] to-transparent pointer-events-none" />
+          
+          <h3 className="font-display text-marble mb-4 relative z-10" style={{ fontSize: 'clamp(28px, 3vw, 36px)', fontWeight: 300 }}>
+            {t('custom.title')}
+          </h3>
+          <p className="font-body text-marble-dim max-w-2xl mx-auto mb-8 relative z-10" style={{ fontSize: 14, lineHeight: 1.8 }}>
+            {t('custom.description')}
+          </p>
+          
+          <button
+            onClick={() => {
+              const el = document.getElementById('contact')
+              if (el) el.scrollIntoView({ behavior: 'smooth' })
+            }}
+            className="btn-gold mx-auto relative z-10"
+            style={{ padding: '12px 32px' }}
+          >
+            <span>{t('custom.cta')}</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="ml-2" style={{ display: 'inline-block' }}>
+              <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </button>
+        </motion.div>
       </div>
     </section>
   )

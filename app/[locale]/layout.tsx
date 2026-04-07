@@ -6,6 +6,7 @@ import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
 import { PageTransition } from '@/components/PageTransition'
+import { WhatsAppButton } from '@/components/WhatsAppButton'
 
 const cormorant = Cormorant_Garamond({
   variable: '--font-display',
@@ -21,12 +22,12 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Pep Santorini | Premium Private Transfer',
+  title: 'transfer1santorini | Premium Private Transfer',
   description:
     'Exclusive white Mercedes private transfer service in Santorini. Unmatched privacy, comfort, and luxury across the island. Book your elite chauffeur experience.',
   keywords: ['Santorini transfer', 'luxury chauffeur', 'private transfer', 'Mercedes Santorini'],
   openGraph: {
-    title: 'Pep Santorini | Premium Private Transfer',
+    title: 'transfer1santorini | Premium Private Transfer',
     description: 'The most private transfer service on Santorini island.',
     type: 'website',
   },
@@ -57,6 +58,7 @@ export default async function LocaleLayout({ children, params }: Props) {
           <PageTransition>
             {children}
           </PageTransition>
+          <WhatsAppButton />
         </NextIntlClientProvider>
       </body>
     </html>

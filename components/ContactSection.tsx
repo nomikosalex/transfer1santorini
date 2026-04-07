@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl'
 import { motion, useInView, AnimatePresence } from 'framer-motion'
-import { useRef, useActionState } from 'react'
+import { useRef, useActionState, startTransition } from 'react'
 import { submitContactForm, type ContactFormState } from '@/app/actions/contact'
 
 const LANGUAGES = [
@@ -21,6 +21,32 @@ export function ContactSection() {
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-80px' })
   const [state, action, pending] = useActionState(submitContactForm, initialState)
+
+  function handleAction(formData: FormData) {
+    const name = formData.get('name') as string
+    const date = formData.get('date') as string
+    const language = formData.get('language') as string
+    const contact = formData.get('contact') as string
+    const message = formData.get('message') as string
+
+    // Validate briefly before popping up WhatsApp (to ensure no empty hits)
+    if (name && date && contact) {
+      const waText = `New Enquiry — transfer1santorini
+Name: ${name}
+Language: ${language.toUpperCase()}
+Date: ${date}
+Contact Ref: ${contact}
+
+${message ? `Message:\n${message}` : ''}`
+      
+      const waUrl = `https://wa.me/306986236909?text=${encodeURIComponent(waText)}`
+      window.open(waUrl, '_blank')
+    }
+
+    startTransition(() => {
+      action(formData)
+    })
+  }
 
   return (
     <section id="contact" className="section relative overflow-hidden bg-obsidian">
@@ -156,7 +182,7 @@ export function ContactSection() {
                 ) : (
                   <motion.form
                     key="form"
-                    action={action}
+                    action={handleAction}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}

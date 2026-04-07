@@ -10,7 +10,6 @@ const SPECS = [
   { key: 'luggage', icon: '🧳' },
   { key: 'ac', icon: '❄️' },
   { key: 'wifi', icon: '📡' },
-  { key: 'water', icon: '💧' },
   { key: 'privacy', icon: '🔒' },
 ] as const
 

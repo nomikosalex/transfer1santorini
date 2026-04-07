@@ -14,14 +14,13 @@
   },
   "fleet": {
     "badge": "Il Veicolo",
-    "title": "Mercedes-Benz S-Class",
+    "title": "Mercedes-Benz C 180",
     "subtitle": "Un unico veicolo, meticolosamente curato, esclusivamente tuo.",
     "specs": {
       "passengers": { "label": "Passeggeri", "value": "Fino a 3" },
-      "luggage": { "label": "Bagagli", "value": "4 Valigie Grandi" },
+      "luggage": { "label": "Bagagli", "value": "2 Valigie Grandi e 2 Valigie Piccole" },
       "ac": { "label": "Clima", "value": "Dual-Zone A/C" },
       "wifi": { "label": "Connettività", "value": "Starlink Wi-Fi" },
-      "water": { "label": "Dotazioni", "value": "Acqua Premium" },
       "privacy": { "label": "Privacy", "value": "Vetri Oscurati" }
     },
     "tag1": "Lavato a mano prima di ogni transfer",
@@ -45,6 +44,11 @@
       "stops": "Percorso Privato · Villaggio di Oia",
       "description": "Arriva al Castello di Oia prima della folla. Goditi il tramonto più famoso del mondo in relativa solitudine, poi torna sotto il cielo stellato dell'Egeo.",
       "cta": "Richiedi Info"
+    },
+    "custom": {
+      "title": "Tour Personalizzati",
+      "description": "Interessato a una destinazione specifica? Offriamo percorsi completamente personalizzabili in base alle tue esigenze su richiesta.",
+      "cta": "Richiedi Percorso Personalizzato"
     }
   },
   "contact": {

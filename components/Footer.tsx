@@ -28,16 +28,10 @@ export function Footer() {
             {/* Logo */}
             <div className="flex flex-col">
               <span
-                className="font-display text-marble"
-                style={{ fontSize: 28, fontWeight: 300, letterSpacing: '0.1em' }}
+                className="font-display text-marble lowercase"
+                style={{ fontSize: 24, fontWeight: 300, letterSpacing: '0.05em' }}
               >
-                PEP
-              </span>
-              <span
-                className="font-body text-gold"
-                style={{ fontSize: 9, letterSpacing: '0.3em', textTransform: 'uppercase' }}
-              >
-                Santorini
+                transfer<span className="text-gold">1</span>santorini
               </span>
             </div>
 
@@ -52,7 +46,7 @@ export function Footer() {
             {/* Contact icons */}
             <div className="flex items-center gap-4">
               <a
-                href="https://wa.me/30"
+                href="https://wa.me/306986236909"
                 target="_blank"
                 rel="noopener noreferrer"
                 id="footer-whatsapp-link"
@@ -87,7 +81,7 @@ export function Footer() {
               className="font-body text-marble-dim"
               style={{ fontSize: 11, letterSpacing: '0.05em' }}
             >
-              © {new Date().getFullYear()} Pep Santorini. {t('rights')}
+              © {new Date().getFullYear()} transfer1santorini. {t('rights')}
             </p>
 
             <div className="flex items-center gap-6">
@@ -131,10 +125,10 @@ export function Footer() {
           bottom: -20,
           left: '50%',
           transform: 'translateX(-50%)',
-          fontSize: 120,
+          fontSize: 'clamp(40px, 10vw, 100px)',
           fontFamily: 'Georgia, serif',
           fontWeight: 300,
-          letterSpacing: '-0.05em',
+          letterSpacing: '-0.02em',
           color: 'rgba(255,255,255,0.015)',
           whiteSpace: 'nowrap',
           userSelect: 'none',
@@ -142,7 +136,7 @@ export function Footer() {
         }}
         aria-hidden="true"
       >
-        PEP
+        transfer1santorini
       </div>
     </footer>
   )

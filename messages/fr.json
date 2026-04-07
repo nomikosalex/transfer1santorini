@@ -14,14 +14,13 @@
   },
   "fleet": {
     "badge": "Le Véhicule",
-    "title": "Mercedes-Benz S-Class",
+    "title": "Mercedes-Benz C 180",
     "subtitle": "Un véhicule unique, méticuleusement entretenu, exclusivement pour vous.",
     "specs": {
       "passengers": { "label": "Passagers", "value": "Jusqu'à 3" },
-      "luggage": { "label": "Bagages", "value": "4 Grandes Valises" },
+      "luggage": { "label": "Bagages", "value": "2 Grandes Valises et 2 Petites Valises" },
       "ac": { "label": "Climatisation", "value": "Dual-Zone A/C" },
       "wifi": { "label": "Connectivité", "value": "Starlink Wi-Fi" },
-      "water": { "label": "Équipements", "value": "Eau Premium" },
       "privacy": { "label": "Intimité", "value": "Vitres Teintées" }
     },
     "tag1": "Lavé à la main avant chaque transfert",
@@ -45,6 +44,11 @@
       "stops": "Itinéraire Privé · Village d'Oia",
       "description": "Arrivez au Château d'Oia avant la foule. Profitez du coucher de soleil le plus célèbre du monde dans une relative solitude, puis rentrez sous le ciel étoilé de la mer Égée.",
       "cta": "Renseignez-vous"
+    },
+    "custom": {
+      "title": "Visites Personnalisées",
+      "description": "Intéressé par une destination spécifique ? Nous proposons des itinéraires entièrement personnalisables adaptés à vos besoins sur demande.",
+      "cta": "Demander un Itinéraire Personnalisé"
     }
   },
   "contact": {

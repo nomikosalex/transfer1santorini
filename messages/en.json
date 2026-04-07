@@ -14,14 +14,13 @@
   },
   "fleet": {
     "badge": "The Vehicle",
-    "title": "Mercedes-Benz S-Class",
+    "title": "Mercedes-Benz C 180",
     "subtitle": "A single vehicle, meticulously maintained, exclusively yours.",
     "specs": {
       "passengers": { "label": "Passengers", "value": "Up to 3" },
-      "luggage": { "label": "Luggage", "value": "4 Large Cases" },
+      "luggage": { "label": "Luggage", "value": "2 Large Suitcases and 2 Small Suitcases" },
       "ac": { "label": "Climate", "value": "Dual-Zone A/C" },
       "wifi": { "label": "Connectivity", "value": "Starlink Wi-Fi" },
-      "water": { "label": "Amenities", "value": "Premium Water" },
       "privacy": { "label": "Privacy", "value": "Tinted Glass" }
     },
     "tag1": "Hand-washed before every transfer",
@@ -45,6 +44,11 @@
       "stops": "Private Route · Oia Village",
       "description": "Arrive at Oia Castle before the crowds gather. Watch the world-famous sunset in relative solitude, then return under a canopy of Aegean stars.",
       "cta": "Inquire"
+    },
+    "custom": {
+      "title": "Custom Tours",
+      "description": "Interested in a specific destination? We offer fully customizable routes tailored to your needs upon request.",
+      "cta": "Request Custom Route"
     }
   },
   "contact": {
