@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "fleet": "Das Fahrzeug",
+    "tours": "Exklusive Touren",
+    "contact": "Reservieren"
+  },
+  "hero": {
+    "badge": "Santorini Exklusiv",
+    "title": "Der Weiße Mercedes",
+    "subtitle": "Erlebnis",
+    "description": "Ein Fahrzeug. Ein Maßstab. Unübertroffene Privatsphäre und Komfort auf der ganzen Insel Santorin.",
+    "cta": "Transfer reservieren",
+    "scroll": "Entdecken"
+  },
+  "fleet": {
+    "badge": "Das Fahrzeug",
+    "title": "Mercedes-Benz S-Klasse",
+    "subtitle": "Ein einziges Fahrzeug, sorgfältig gepflegt, ausschließlich für Sie.",
+    "specs": {
+      "passengers": { "label": "Passagiere", "value": "Bis zu 3" },
+      "luggage": { "label": "Gepäck", "value": "4 Große Koffer" },
+      "ac": { "label": "Klima", "value": "Dual-Zone A/C" },
+      "wifi": { "label": "Konnektivität", "value": "Starlink Wi-Fi" },
+      "water": { "label": "Ausstattung", "value": "Premium-Wasser" },
+      "privacy": { "label": "Privatsphäre", "value": "Getönte Scheiben" }
+    },
+    "tag1": "Vor jedem Transfer von Hand gewaschen",
+    "tag2": "Fahrer in formeller Kleidung",
+    "tag3": "Kindersitz auf Anfrage erhältlich"
+  },
+  "tours": {
+    "badge": "Ausgewählte Erlebnisse",
+    "title": "Über den Transfer Hinaus",
+    "subtitle": "Zwei Routen für alle, die mehr als ein Ziel suchen.",
+    "tour1": {
+      "title": "Caldera-Panorama",
+      "duration": "4 Stunden",
+      "stops": "Fira · Imerovigli · Oia",
+      "description": "Eine Reise entlang des Vulkankraters. Bestaunen Sie die weiß getünchte Architektur, die in die alte Caldera abfällt, mit privaten Stopps an den atemberaubendsten Aussichtspunkten.",
+      "cta": "Anfragen"
+    },
+    "tour2": {
+      "title": "Oia Sonnenuntergangs-Ritual",
+      "duration": "3 Stunden",
+      "stops": "Private Route · Dorf Oia",
+      "description": "Kommen Sie vor den Menschenmassen zur Burg von Oia. Genießen Sie den weltberühmten Sonnenuntergang in relativer Stille und kehren Sie unter dem Sternenhimmel der Ägäis zurück.",
+      "cta": "Anfragen"
+    }
+  },
+  "contact": {
+    "badge": "Sichere Reservierung",
+    "title": "Transfer reservieren",
+    "subtitle": "Alle Anfragen sind privat, verschlüsselt und werden innerhalb von 2 Stunden beantwortet.",
+    "form": {
+      "name": "Vollständiger Name",
+      "namePlaceholder": "Ihr Name",
+      "language": "Bevorzugte Sprache",
+      "date": "Transfer-Datum",
+      "contact": "WhatsApp oder E-Mail",
+      "contactPlaceholder": "+49 oder E-Mail-Adresse",
+      "message": "Besondere Wünsche",
+      "messagePlaceholder": "Abholort, Flugnummer, Präferenzen...",
+      "submit": "Private Anfrage senden",
+      "submitting": "Wird gesendet...",
+      "success": "Ihre Anfrage wurde erhalten. Wir werden innerhalb von 2 Stunden antworten.",
+      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+    },
+    "privacy": "Ihre Daten werden niemals geteilt oder in einer öffentlichen Datenbank gespeichert."
+  },
+  "footer": {
+    "tagline": "Santorins privatester Transferservice.",
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "terms": "Bedingungen"
+  }
+}

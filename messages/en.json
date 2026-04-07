@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "fleet": "The Fleet",
+    "tours": "Curated Tours",
+    "contact": "Reserve"
+  },
+  "hero": {
+    "badge": "Santorini Exclusive",
+    "title": "The White Mercedes",
+    "subtitle": "Experience",
+    "description": "One vehicle. One standard. Unmatched privacy and comfort across the island of Santorini.",
+    "cta": "Reserve Your Transfer",
+    "scroll": "Discover"
+  },
+  "fleet": {
+    "badge": "The Vehicle",
+    "title": "Mercedes-Benz S-Class",
+    "subtitle": "A single vehicle, meticulously maintained, exclusively yours.",
+    "specs": {
+      "passengers": { "label": "Passengers", "value": "Up to 3" },
+      "luggage": { "label": "Luggage", "value": "4 Large Cases" },
+      "ac": { "label": "Climate", "value": "Dual-Zone A/C" },
+      "wifi": { "label": "Connectivity", "value": "Starlink Wi-Fi" },
+      "water": { "label": "Amenities", "value": "Premium Water" },
+      "privacy": { "label": "Privacy", "value": "Tinted Glass" }
+    },
+    "tag1": "Hand-washed before every transfer",
+    "tag2": "Chauffeur in formal attire",
+    "tag3": "Child seat available on request"
+  },
+  "tours": {
+    "badge": "Curated Experiences",
+    "title": "Beyond the Transfer",
+    "subtitle": "Two signature routes crafted for those who seek more than a destination.",
+    "tour1": {
+      "title": "Caldera Panorama",
+      "duration": "4 Hours",
+      "stops": "Fira · Imerovigli · Oia",
+      "description": "A journey along the volcanic rim. Witness whitewashed architecture cascade into the ancient caldera, with private stops at the most breathtaking viewpoints.",
+      "cta": "Inquire"
+    },
+    "tour2": {
+      "title": "Oia Sunset Ritual",
+      "duration": "3 Hours",
+      "stops": "Private Route · Oia Village",
+      "description": "Arrive at Oia Castle before the crowds gather. Watch the world-famous sunset in relative solitude, then return under a canopy of Aegean stars.",
+      "cta": "Inquire"
+    }
+  },
+  "contact": {
+    "badge": "Secure Reservation",
+    "title": "Reserve Your Transfer",
+    "subtitle": "All enquiries are private, encrypted, and answered within 2 hours.",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Your name",
+      "language": "Preferred Language",
+      "date": "Transfer Date",
+      "contact": "WhatsApp or Email",
+      "contactPlaceholder": "+30 or email address",
+      "message": "Special Requests",
+      "messagePlaceholder": "Pickup location, flight number, preferences...",
+      "submit": "Send Private Enquiry",
+      "submitting": "Sending...",
+      "success": "Your enquiry has been received. We will respond within 2 hours.",
+      "error": "Something went wrong. Please try again."
+    },
+    "privacy": "Your data is never shared or stored in a public database."
+  },
+  "footer": {
+    "tagline": "Santorini's most private transfer service.",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  }
+}

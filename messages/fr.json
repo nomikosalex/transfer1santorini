@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "fleet": "Le Véhicule",
+    "tours": "Voyages Exclusifs",
+    "contact": "Réserver"
+  },
+  "hero": {
+    "badge": "Santorini Exclusive",
+    "title": "La Mercedes Blanche",
+    "subtitle": "L'Expérience",
+    "description": "Un seul véhicule. Un seul standard. Intimité et confort inégalés à travers Santorin.",
+    "cta": "Réserver votre Transfert",
+    "scroll": "Découvrir"
+  },
+  "fleet": {
+    "badge": "Le Véhicule",
+    "title": "Mercedes-Benz S-Class",
+    "subtitle": "Un véhicule unique, méticuleusement entretenu, exclusivement pour vous.",
+    "specs": {
+      "passengers": { "label": "Passagers", "value": "Jusqu'à 3" },
+      "luggage": { "label": "Bagages", "value": "4 Grandes Valises" },
+      "ac": { "label": "Climatisation", "value": "Dual-Zone A/C" },
+      "wifi": { "label": "Connectivité", "value": "Starlink Wi-Fi" },
+      "water": { "label": "Équipements", "value": "Eau Premium" },
+      "privacy": { "label": "Intimité", "value": "Vitres Teintées" }
+    },
+    "tag1": "Lavé à la main avant chaque transfert",
+    "tag2": "Chauffeur en tenue formelle",
+    "tag3": "Siège enfant disponible sur demande"
+  },
+  "tours": {
+    "badge": "Expériences Sélectionnées",
+    "title": "Au-delà du Transfert",
+    "subtitle": "Deux itinéraires conçus pour ceux qui cherchent plus qu'une destination.",
+    "tour1": {
+      "title": "Panorama de la Caldeira",
+      "duration": "4 Heures",
+      "stops": "Fira · Imerovigli · Oia",
+      "description": "Un voyage le long du bord volcanique. Admirez l'architecture blanchie à la chaux qui plonge dans l'ancienne caldeira, avec des arrêts privés aux points de vue les plus spectaculaires.",
+      "cta": "Renseignez-vous"
+    },
+    "tour2": {
+      "title": "Rituel du Coucher de Soleil à Oia",
+      "duration": "3 Heures",
+      "stops": "Itinéraire Privé · Village d'Oia",
+      "description": "Arrivez au Château d'Oia avant la foule. Profitez du coucher de soleil le plus célèbre du monde dans une relative solitude, puis rentrez sous le ciel étoilé de la mer Égée.",
+      "cta": "Renseignez-vous"
+    }
+  },
+  "contact": {
+    "badge": "Réservation Sécurisée",
+    "title": "Réserver votre Transfert",
+    "subtitle": "Toutes les demandes sont privées, chiffrées et reçoivent une réponse dans les 2 heures.",
+    "form": {
+      "name": "Nom Complet",
+      "namePlaceholder": "Votre nom",
+      "language": "Langue Préférée",
+      "date": "Date du Transfert",
+      "contact": "WhatsApp ou Email",
+      "contactPlaceholder": "+33 ou adresse email",
+      "message": "Demandes Spéciales",
+      "messagePlaceholder": "Lieu de prise en charge, numéro de vol, préférences...",
+      "submit": "Envoyer une Demande Privée",
+      "submitting": "Envoi en cours...",
+      "success": "Votre demande a été reçue. Nous répondrons dans les 2 heures.",
+      "error": "Une erreur s'est produite. Veuillez réessayer."
+    },
+    "privacy": "Vos données ne sont jamais partagées ni stockées dans une base de données publique."
+  },
+  "footer": {
+    "tagline": "Le service de transfert le plus privé de Santorin.",
+    "rights": "Tous droits réservés.",
+    "privacy": "Confidentialité",
+    "terms": "Conditions"
+  }
+}

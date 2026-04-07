@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "fleet": "La Vettura",
+    "tours": "Tour Esclusivi",
+    "contact": "Prenota"
+  },
+  "hero": {
+    "badge": "Esclusiva Santorini",
+    "title": "La Mercedes Bianca",
+    "subtitle": "Esperienza",
+    "description": "Un solo veicolo. Uno standard unico. Privacy e comfort senza pari in tutta Santorini.",
+    "cta": "Prenota il Tuo Transfer",
+    "scroll": "Scopri"
+  },
+  "fleet": {
+    "badge": "Il Veicolo",
+    "title": "Mercedes-Benz S-Class",
+    "subtitle": "Un unico veicolo, meticolosamente curato, esclusivamente tuo.",
+    "specs": {
+      "passengers": { "label": "Passeggeri", "value": "Fino a 3" },
+      "luggage": { "label": "Bagagli", "value": "4 Valigie Grandi" },
+      "ac": { "label": "Clima", "value": "Dual-Zone A/C" },
+      "wifi": { "label": "Connettività", "value": "Starlink Wi-Fi" },
+      "water": { "label": "Dotazioni", "value": "Acqua Premium" },
+      "privacy": { "label": "Privacy", "value": "Vetri Oscurati" }
+    },
+    "tag1": "Lavato a mano prima di ogni transfer",
+    "tag2": "Autista in abito formale",
+    "tag3": "Seggiolino disponibile su richiesta"
+  },
+  "tours": {
+    "badge": "Esperienze Selezionate",
+    "title": "Oltre il Transfer",
+    "subtitle": "Due itinerari esclusivi per chi cerca più di una destinazione.",
+    "tour1": {
+      "title": "Panorama della Caldera",
+      "duration": "4 Ore",
+      "stops": "Fira · Imerovigli · Oia",
+      "description": "Un viaggio lungo il bordo vulcanico. Ammira l'architettura bianca che scende nella caldera millenaria, con soste private nei punti panoramici più spettacolari.",
+      "cta": "Richiedi Info"
+    },
+    "tour2": {
+      "title": "Rituale del Tramonto a Oia",
+      "duration": "3 Ore",
+      "stops": "Percorso Privato · Villaggio di Oia",
+      "description": "Arriva al Castello di Oia prima della folla. Goditi il tramonto più famoso del mondo in relativa solitudine, poi torna sotto il cielo stellato dell'Egeo.",
+      "cta": "Richiedi Info"
+    }
+  },
+  "contact": {
+    "badge": "Prenotazione Sicura",
+    "title": "Prenota il Tuo Transfer",
+    "subtitle": "Tutte le richieste sono private, crittografate e ricevono risposta entro 2 ore.",
+    "form": {
+      "name": "Nome Completo",
+      "namePlaceholder": "Il tuo nome",
+      "language": "Lingua Preferita",
+      "date": "Data del Transfer",
+      "contact": "WhatsApp o Email",
+      "contactPlaceholder": "+39 o indirizzo email",
+      "message": "Richieste Speciali",
+      "messagePlaceholder": "Luogo di ritiro, numero di volo, preferenze...",
+      "submit": "Invia Richiesta Privata",
+      "submitting": "Invio in corso...",
+      "success": "La tua richiesta è stata ricevuta. Risponderemo entro 2 ore.",
+      "error": "Qualcosa è andato storto. Riprova."
+    },
+    "privacy": "I tuoi dati non vengono mai condivisi o archiviati in un database pubblico."
+  },
+  "footer": {
+    "tagline": "Il servizio di transfer più esclusivo di Santorini.",
+    "rights": "Tutti i diritti riservati.",
+    "privacy": "Privacy",
+    "terms": "Termini"
+  }
+}
