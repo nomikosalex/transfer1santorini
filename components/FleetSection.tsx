@@ -83,7 +83,7 @@ export function FleetSection() {
             />
             <Image
               src="/mercedes.png"
-              alt="White Mercedes-Benz S-Class interior and exterior — Pep Santorini Fleet"
+              alt="Luxury Mercedes Transfer Santorini vehicle"
               width={600}
               height={440}
               quality={90}

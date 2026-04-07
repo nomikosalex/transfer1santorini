@@ -5,6 +5,7 @@
     "contact": "Reserve"
   },
   "hero": {
+    "h1": "Premium Private Transfers in Santorini",
     "badge": "Santorini Exclusive",
     "title": "The White Mercedes",
     "subtitle": "Experience",
@@ -76,5 +77,10 @@
     "rights": "All rights reserved.",
     "privacy": "Privacy",
     "terms": "Terms"
+  },
+  "metadata": {
+    "title": "transfer1santorini | Premium Private Transfers & Tours in Santorini",
+    "description": "Exclusive Luxury Mercedes Transfer Santorini. We provide premium Santorini Private Transfer, Santorini Airport Taxi, and Oia Sunset Shuttle services.",
+    "keywords": "Santorini Private Transfer, Luxury Mercedes Transfer Santorini, Santorini Airport Taxi, Athinios Port Transfer, Oia Sunset Shuttle"
   }
 }

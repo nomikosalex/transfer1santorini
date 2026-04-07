@@ -9,13 +9,13 @@ const TOURS = [
   {
     key: 'tour1',
     image: '/tour-caldera.png',
-    alt: 'Santorini Caldera panoramic view at sunset',
+    alt: 'Santorini Private Transfer Caldera panoramic view',
     id: 'tour-caldera-card',
   },
   {
     key: 'tour2',
     image: '/tour-oia.png',
-    alt: 'Oia village sunset with iconic windmills',
+    alt: 'Oia Sunset Shuttle at iconic windmills',
     id: 'tour-oia-card',
   },
 ]

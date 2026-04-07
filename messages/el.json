@@ -5,6 +5,7 @@
     "contact": "Κράτηση"
   },
   "hero": {
+    "h1": "Premium Ιδιωτικές Μεταφορές στη Σαντορίνη",
     "badge": "Αποκλειστικά στη Σαντορίνη",
     "title": "Η Λευκή Mercedes",
     "subtitle": "Εμπειρία",
@@ -76,5 +77,10 @@
     "rights": "Με επιφύλαξη παντός δικαιώματος.",
     "privacy": "Ιδιωτικότητα",
     "terms": "Όροι"
+  },
+  "metadata": {
+    "title": "transfer1santorini | Premium Ιδιωτικές Μεταφορές & Περιηγήσεις στη Σαντορίνη",
+    "description": "Αποκλειστικές μεταφορές με Luxury Mercedes. Παρέχουμε κορυφαία Santorini Private Transfer, Santorini Airport Taxi, και Oia Sunset Shuttle.",
+    "keywords": "Santorini Private Transfer, Luxury Mercedes Transfer Santorini, Santorini Airport Taxi, Athinios Port Transfer, Oia Sunset Shuttle"
   }
 }

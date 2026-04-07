@@ -62,17 +62,22 @@ export function HeroSection() {
             </span>
           </motion.div>
 
-          {/* Main Title */}
+          {/* Hidden H1 for SEO */}
+          <h1 className="sr-only">{t('h1')}</h1>
+
+          {/* Main Title (Visual only) */}
           <div className="overflow-hidden mb-3">
-            <motion.h1
+            <motion.div
               initial={{ y: '100%', opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.7, delay: 0.2, ease: [0.25, 0.46, 0.45, 0.94] }}
               className="font-display text-marble"
               style={{ fontSize: 'clamp(52px, 9vw, 108px)', fontWeight: 300, lineHeight: 0.95, letterSpacing: '-0.03em' }}
+              role="heading"
+              aria-level={2}
             >
               {t('title')}
-            </motion.h1>
+            </motion.div>
           </div>
 
           <div className="overflow-hidden mb-10">
@@ -158,7 +163,7 @@ export function HeroSection() {
         />
         <Image
           src="/mercedes.png"
-          alt="White Mercedes-Benz S-Class — Pep Santorini Premium Transfer"
+          alt="Luxury Mercedes C 180 in Oia Santorini"
           width={900}
           height={600}
           priority
