@@ -89,15 +89,14 @@ export function Footer() {
                 { key: 'privacy', label: t('privacy') },
                 { key: 'terms', label: t('terms') },
               ].map((link) => (
-                <a
+                <span
                   key={link.key}
-                  href={`/${link.key}`}
                   id={`footer-${link.key}-link`}
-                  className="font-body text-marble-dim hover:text-gold-2 transition-colors"
-                  style={{ fontSize: 11, letterSpacing: '0.05em', textDecoration: 'none' }}
+                  className="font-body text-marble-dim"
+                  style={{ fontSize: 11, letterSpacing: '0.05em', pointerEvents: 'none', cursor: 'default' }}
                 >
                   {link.label}
-                </a>
+                </span>
               ))}
             </div>
 

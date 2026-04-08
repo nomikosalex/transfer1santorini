@@ -1,6 +1,7 @@
 'use server'
 
 import { z } from 'zod'
+import nodemailer from 'nodemailer'
 
 const ContactSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters').max(100),
@@ -76,11 +77,29 @@ export async function submitContactForm(
       `Submitted at: ${new Date().toISOString()}`,
     ].join('\n')
 
-    // Log for serverless contexts (replace with email/WA integration)
+    // Log for serverless contexts
     console.log('[Contact Enquiry]\n', body)
 
-    // If CONTACT_EMAIL env is set, could use Resend/NodeMailer here
-    // await sendEmail({ to: process.env.CONTACT_EMAIL, subject: 'New Enquiry', body })
+    const transporter = nodemailer.createTransport({
+      host: process.env.SMTP_HOST || 'smtp.gmail.com',
+      port: Number(process.env.SMTP_PORT) || 587,
+      secure: process.env.SMTP_SECURE === 'true',
+      auth: {
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
+      },
+    })
+
+    if (process.env.SMTP_USER && process.env.SMTP_PASS) {
+      await transporter.sendMail({
+        from: process.env.SMTP_USER,
+        to: 'fanourissigalastransfer@gmail.com',
+        subject: `New Enquiry from ${data.name}`,
+        text: body,
+      })
+    } else {
+      console.warn('SMTP credentials not provided. Email not sent.')
+    }
 
     return { success: true }
   } catch {
