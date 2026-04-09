@@ -57,7 +57,7 @@ export function Footer() {
                 WhatsApp
               </a>
               <a
-                href="mailto:info@pepsantorini.com"
+                href="mailto:fanourissigalastransfer@gmail.com"
                 id="footer-email-link"
                 aria-label="Contact via Email"
                 className="btn-ghost"
