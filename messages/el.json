@@ -15,14 +15,29 @@
   },
   "fleet": {
     "badge": "Το Όχημα",
-    "title": "Mercedes-Benz C 180",
+    "title": "Mercedes-Benz CLA 180",
     "subtitle": "Ένα μοναδικό όχημα, σχολαστικά συντηρημένο, αποκλειστικά δικό σας.",
     "specs": {
-      "passengers": { "label": "Επιβάτες", "value": "Έως 4" },
-      "luggage": { "label": "Αποσκευές", "value": "2 Μεγάλες Βαλίτσες και 2 Μικρές Βαλίτσες" },
-      "ac": { "label": "Κλιματισμός", "value": "Dual-Zone A/C" },
-      "wifi": { "label": "Συνδεσιμότητα", "value": "Starlink Wi-Fi" },
-      "privacy": { "label": "Ιδιωτικότητα", "value": "Σκουρόχρωμα Τζάμια" }
+      "passengers": {
+        "label": "Επιβάτες",
+        "value": "Έως 4"
+      },
+      "luggage": {
+        "label": "Αποσκευές",
+        "value": "2 Μεγάλες Βαλίτσες και 2 Μικρές Βαλίτσες"
+      },
+      "ac": {
+        "label": "Κλιματισμός",
+        "value": "Dual-Zone A/C"
+      },
+      "wifi": {
+        "label": "Συνδεσιμότητα",
+        "value": "Starlink Wi-Fi"
+      },
+      "privacy": {
+        "label": "Ιδιωτικότητα",
+        "value": "Σκουρόχρωμα Τζάμια"
+      }
     },
     "tag1": "Πλύσιμο πριν από κάθε μεταφορά",
     "tag2": "Σοφέρ σε επίσημη ενδυμασία",

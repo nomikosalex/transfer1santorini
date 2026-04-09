@@ -15,14 +15,29 @@
   },
   "fleet": {
     "badge": "The Vehicle",
-    "title": "Mercedes-Benz C 180",
+    "title": "Mercedes-Benz CLA 180",
     "subtitle": "A single vehicle, meticulously maintained, exclusively yours.",
     "specs": {
-      "passengers": { "label": "Passengers", "value": "Up to 4" },
-      "luggage": { "label": "Luggage", "value": "2 Large Suitcases and 2 Small Suitcases" },
-      "ac": { "label": "Climate", "value": "Dual-Zone A/C" },
-      "wifi": { "label": "Connectivity", "value": "Starlink Wi-Fi" },
-      "privacy": { "label": "Privacy", "value": "Tinted Glass" }
+      "passengers": {
+        "label": "Passengers",
+        "value": "Up to 4"
+      },
+      "luggage": {
+        "label": "Luggage",
+        "value": "2 Large Suitcases and 2 Small Suitcases"
+      },
+      "ac": {
+        "label": "Climate",
+        "value": "Dual-Zone A/C"
+      },
+      "wifi": {
+        "label": "Connectivity",
+        "value": "Starlink Wi-Fi"
+      },
+      "privacy": {
+        "label": "Privacy",
+        "value": "Tinted Glass"
+      }
     },
     "tag1": "Hand-washed before every transfer",
     "tag2": "Chauffeur in formal attire",
